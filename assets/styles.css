@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --ff-primary: "Source Sans Pro", sans-serif;
+
+  --fw-reg: 300;
+  --fw-bold: 900;
+
+  --clr-lightblue: #1e6091;
+  --clr-darkblue: #184e77;
+  --clr-green: #99d98c;
+  --clr-yellow: #d9ed92;
+  --clr-text: #edf3fc;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 2.25rem;
+  --fs-body: 2rem;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 2.5rem;
+    --fs-body: 2rem;
+  }
+}
+
+body {
+  background-color: var(--clr-darkblue);
+  color: var(--clr-text);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  text-align: justify;
+  /* line-height: 1.6; */
+}
+
+section {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+/* Typography */
+
+h1 h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
+
+h2 {
+  font-size: var(--fs-h2);
+}
+
+h3 {
+  font-size: var(--fs-h3);
+  opacity: 0.75;
+}
+
+.section__title {
+  font-size: var(--fs-h1);
+  opacity: 0.75;
+}
+
+.section__content {
+  font-size: var(--fs-body);
+  opacity: 0.6;
+}
+
+nav a:link {
+  color: var(--clr-green);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+nav a:visited {
+  color: var(--clr-green);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+nav a:hover {
+  color: var(--clr-green);
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.intro__img {
+  border-radius: 2em;
+}
+
+@media (min-width: 600px) {
+  .intro {
+    margin: 0;
+    display: grid;
+    gap: 0.75em;
+    grid-template-areas: "intro__content img";
+  }
+
+  .social__media a:link {
+    text-decoration: none;
+    color: var(--clr-text);
+    opacity: 0.75;
+  }
+
+  .social__media a:visited {
+    color: var(--clr-text);
+    opacity: 0.75;
+  }
+
+  .social__media a:hover {
+    color: var(--clr-green);
+    opacity: 0.75;
+  }
+
+  i {
+    padding: 0.5em;
+  }
+
+  .project__list {
+    display: grid;
+    gap: 0.75em;
+    border: 1px var(--clr-green);
+    grid-template-areas: "one two";
+  }
+
+  .project__description {
+    opacity: 0.5;
+  }
+
+  .tech__icons {
+    border-color: var(--clr-green);
+    float: right;
+    opacity: 0.75;
+  }
+
+  .full__project__content {
+    border: var(--clr-green);
+  }
+
+  .project__list a:link {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.75;
+  }
+
+  .project__list a:visited {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.75;
+  }
+
+  .project__list a:hover {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.75;
+  }
+}
