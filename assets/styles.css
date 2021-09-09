@@ -178,7 +178,7 @@ i {
 }
 
 .project__image img {
-  max-width: 576px;
+  max-width: 25em;
   max-height: auto;
 }
 
@@ -190,7 +190,7 @@ i {
 }
 
 .education__img img {
-  max-width: 576px;
+  max-width: 25em;
   max-height: auto;
 }
 
@@ -224,6 +224,6 @@ i {
 }
 
 .contact__img img {
-  max-width: 576px;
+  max-width: 25em;
   max-height: auto;
 }
