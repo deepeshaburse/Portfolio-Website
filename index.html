@@ -25,6 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
       rel="stylesheet"
     />
+    <!-- <script src="./assets/projectCards.js"></script> -->
   </head>
   <body>
     <header>
@@ -53,7 +54,7 @@
 
     <!-- Introduction -->
     <section class="intro" id="home">
-      <div class="intro__content">
+      <div class="intro__content--grid">
         <h1 class="section__title section__title--intro">Deepesha Burse</h1>
 
         <p class="section__content intro">
@@ -71,10 +72,13 @@
             ><i class="fab fa-kaggle"></i
           ></a>
           <a href="https://www.linkedin.com/in/deepesha-burse-0514a820b/"
-            ><i class="fab fa-linkedin-in"></i
+            ><i class="fab fa-linkedin"></i
           ></a>
           <a href="https://twitter.com/3007Burse"
             ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="mailto:deepesha.3007@gmail.com"
+            ><i class="fab fa-google"></i
           ></a>
         </span>
       </div>
@@ -83,15 +87,23 @@
       </div>
     </section>
 
+    <br />
+
     <!-- Projects -->
     <section class="project" id="projects">
-      <div class="project__content">
-        <h1 class="section__title section__title--projects">Projects</h1>
-        <p class="section__content projects">
-          These are the personal projects I have made to implement the
-          technologies I have learnt and reinforce them.
-        </p>
+      <div class="project__description--img--grid">
+        <div class="project__image">
+          <img src="./assets/Project.jpg" alt="" />
+        </div>
+        <div class="project__content">
+          <h1 class="section__title section__title--projects">Projects</h1>
+          <p class="section__content projects">
+            These are the personal projects I have made to implement the
+            technologies I have learnt and reinforce them.
+          </p>
+        </div>
       </div>
+      <br />
       <div class="project__list">
         <span class="full__project__content">
           <a href="https://github.com/deepeshaburse/Sentiment-Analysis"
@@ -99,43 +111,101 @@
           >
           <p class="project__description">
             In this project, I have analysed the reviews of a women's clothing
-            company. The data has been extracted from a CSV file. It is based on
-            Python 3.8. This project includes data cleaning, data visualization,
+            company. This project includes data cleaning, data visualization,
             natural language processing and a lot more!
           </p>
           <i class="fab fa-python tech__icons"></i>
         </span>
-        <span>
+        <span class="full__project__content">
           <a href="https://github.com/deepeshaburse/Python-File-Manager"
             ><h3 class="project__title">File Manager in Python</h3></a
           >
           <p class="project__description">
-            This project is a File Manager based on Python 3.8. With this file
-            manager, we can perform various function like opening files/folders,
-            renaming them, deleting them (permanently or sending them to the
-            recycle bin), copy and move files.
+            With this file manager, we can perform various function like opening
+            files/folders, renaming them, deleting them (permanently or sending
+            them to the recycle bin), copy and move files.
           </p>
           <i class="fab fa-python tech__icons"></i>
         </span>
       </div>
     </section>
 
+    <br />
+
     <!-- Education -->
     <section class="education" id="education">
-      <h1 class="section__title section__title--education">Education</h1>
-      <p class="section__content education">
-        Basic Qualification and Certifications
-      </p>
+      <div class="education__description--img--grid">
+        <div class="education__description">
+          <h1 class="section__title section__title--education">Education</h1>
+          <p class="section__content education">
+            Basic Qualification and Certifications
+          </p>
+        </div>
+        <div class="education__img">
+          <img src="./assets/Degree.jpg" alt="" />
+        </div>
+      </div>
       <h1 class="section__title section__title--education">Certificates</h1>
+      <!-- <div class="cert__list">
+      <div class="card">
+        <img class="google__icon" src="./assets/google-brands.svg" alt="" style="width: 100%" />
+        <div class="container">
+          <h4><b>Launching into ML</b></h4>
+          <p>GCP</p>
+        </div>
+        <div class="card">
+        <img class="university__of__Michigan" src="./assets/google-brands.svg" alt="" style="width: 100%" />
+        <div class="container">
+          <h4><b>Introduction to Data Science in Python</b></h4>
+          <p>University of Michigan</p>
+        </div>
+        <div class="card">
+        <img class="ibm" src="./assets/google-brands.svg" alt="" style="width: 100%" />
+        <div class="container">
+          <h4><b>Cloud Core</b></h4>
+          <p><IBM/p>
+        </div>
+        <div class="card">
+        <img class="udemy" src="./assets/google-brands.svg" alt="" style="width: 100%" />
+        <div class="container">
+          <h4><b>Python Bootcamp Zero to Hero</b></h4>
+          <p>Udemy</p>
+        </div>
+      </div>
+      </div> -->
     </section>
 
     <!-- Contact Me -->
     <section class="contact" id="contact">
-      <h1 class="section__title section__title--contact">Contact Me</h1>
-      <p class="section__content contact">
-        I love connecting with people, you can connect with me via the following
-        social media platforms!
-      </p>
+      <div class="contact__description--img--grid">
+        <div class="contact__img">
+          <img src="./assets/Contact.jpg" alt="" />
+        </div>
+        <div class="contact__description">
+          <h1 class="section__title section__title--contact">Contact Me</h1>
+          <p class="section__content contact">
+            I love connecting with people, you can connect with me via the
+            following social media platforms!
+          </p>
+          <span class="social__media">
+            <a href="https://github.com/deepeshaburse"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.kaggle.com/deepeshaburse"
+              ><i class="fab fa-kaggle"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/deepesha-burse-0514a820b/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/3007Burse"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="mailto:deepesha.3007@gmail.com"
+              ><i class="fab fa-google"></i
+            ></a>
+          </span>
+        </div>
+      </div>
     </section>
   </body>
 </html>
