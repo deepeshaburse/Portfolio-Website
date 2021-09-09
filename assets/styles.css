@@ -100,101 +100,101 @@ nav a:hover {
   opacity: 0.8;
 }
 
-/* @media (min-width: 600px) { */
-.intro {
-  margin: 0;
-  display: grid;
-  gap: 0.75em;
-  grid-template-areas: "intro__content img";
-}
+@media (min-width: 600px) {
+  .intro {
+    margin: 0;
+    display: grid;
+    gap: 0.75em;
+    grid-template-areas: "intro__content img";
+  }
 
-.social__media a:link {
-  text-decoration: none;
-  color: var(--clr-text);
-  opacity: 1;
-}
+  .social__media a:link {
+    text-decoration: none;
+    color: var(--clr-text);
+    opacity: 1;
+  }
 
-.social__media a:visited {
-  color: var(--clr-text);
-  opacity: 1;
-}
+  .social__media a:visited {
+    color: var(--clr-text);
+    opacity: 1;
+  }
 
-.social__media a:hover {
-  color: var(--clr-green);
-  opacity: 1;
-}
+  .social__media a:hover {
+    color: var(--clr-green);
+    opacity: 1;
+  }
 
-i {
-  padding: 0.5em;
-}
+  i {
+    padding: 0.5em;
+  }
 
-.project__description--img--grid {
-  margin: 0;
-  display: grid;
-  gap: 0.75em;
-  grid-template-areas: "img project__content";
-}
+  .project__description--img--grid {
+    margin: 0;
+    display: grid;
+    gap: 0.75em;
+    grid-template-areas: "img project__content";
+  }
 
-.project__list {
-  display: grid;
-  gap: 1.5em;
-  grid-template-areas: "one two";
-}
+  .project__list {
+    display: grid;
+    gap: 1.5em;
+    grid-template-areas: "one two";
+  }
 
-.project__list .full__project__content {
-  border: 3px solid var(--clr-lightblue);
-}
+  .project__list .full__project__content {
+    border: 3px solid var(--clr-lightblue);
+  }
 
-.project__description {
-  opacity: 0.8;
-}
+  .project__description {
+    opacity: 0.8;
+  }
 
-.tech__icons {
-  border-color: var(--clr-green);
-  float: right;
-  opacity: 1;
-}
+  .tech__icons {
+    border-color: var(--clr-green);
+    float: right;
+    opacity: 1;
+  }
 
-.full__project__content {
-  border: var(--clr-green);
-}
+  .full__project__content {
+    border: var(--clr-green);
+  }
 
-.project__list a:link {
-  color: var(--clr-text);
-  text-decoration: none;
-  opacity: 0.8;
-}
+  .project__list a:link {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.8;
+  }
 
-.project__list a:visited {
-  color: var(--clr-text);
-  text-decoration: none;
-  opacity: 0.8;
-}
+  .project__list a:visited {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.8;
+  }
 
-.project__list a:hover {
-  color: var(--clr-text);
-  text-decoration: none;
-  opacity: 0.8;
-}
+  .project__list a:hover {
+    color: var(--clr-text);
+    text-decoration: none;
+    opacity: 0.8;
+  }
 
-.project__image img {
-  max-width: 25em;
-  max-height: auto;
-}
+  .project__image img {
+    max-width: 25em;
+    max-height: auto;
+  }
 
-.education__description--img--grid {
-  margin: 0;
-  display: grid;
-  gap: 0.75em;
-  grid-template-areas: "education__content img";
-}
+  .education__description--img--grid {
+    margin: 0;
+    display: grid;
+    gap: 0.75em;
+    grid-template-areas: "education__content img";
+  }
 
-.education__img img {
-  max-width: 25em;
-  max-height: auto;
-}
+  .education__img img {
+    max-width: 25em;
+    max-height: auto;
+  }
 
-/* .cert__list {
+  /* .cert__list {
     display: grid;
     gap: 0.5em;
     grid-template-areas: "one two three";
@@ -202,28 +202,29 @@ i {
 
   .card {
     /* Add shadows to create the "card" effect */
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
   }  */
 
-/* On mouse-over, add a deeper shadow */
-/* .card:hover {
+  /* On mouse-over, add a deeper shadow */
+  /* .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   } */
 
-/* Add some padding inside the card container */
-/* .container {
+  /* Add some padding inside the card container */
+  /* .container {
     padding: 2px 16px;
   } */
 
-.contact__description--img--grid {
-  margin: 0;
-  display: grid;
-  gap: 0.75em;
-  grid-template-areas: "contact__content img";
-}
+  .contact__description--img--grid {
+    margin: 0;
+    display: grid;
+    gap: 0.75em;
+    grid-template-areas: "contact__content img";
+  }
 
-.contact__img img {
-  max-width: 25em;
-  max-height: auto;
+  .contact__img img {
+    max-width: 25em;
+    max-height: auto;
+  }
 }
