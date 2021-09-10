@@ -67,8 +67,8 @@ h3 {
 }
 
 .logo img {
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 0.25em;
+  margin-left: 0.25em;
   max-width: 10rem;
   max-height: auto;
 }
@@ -80,6 +80,20 @@ h3 {
 .section__content {
   font-size: var(--fs-body);
   opacity: 0.8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.nav__list {
+  list-style: none;
+  display: grid;
+  margin-top: 4.5rem;
+  gap: 2.5rem;
+  grid-template-areas: "one two three four five";
 }
 
 nav a:link {
